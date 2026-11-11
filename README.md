@@ -201,10 +201,6 @@ Music videos with visuals generated entirely from code, using no image or video 
 <tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/sarut0bisasuke-069973?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/sarut0bisasuke-069973/preview.webp" alt="Opus 5.5 video by @Sarut0biSasuke" width="100%"></a><br><a href="https://x.com/Sarut0biSasuke/status/2103418429248069973"><b>@Sarut0biSasuke</b></a> · <a href="prompts/sarut0bisasuke-069973.md">Prompt</a><br><sub>Canvas</sub></td></tr>
 </table>
 
-### Skill-assisted animated lessons
-
-Skill-assisted narrated cartoon lessons combining p5.js diagrams and captions with generated character artwork and video.
-
 <table>
 <tr>
 <td width="33%" valign="top">
