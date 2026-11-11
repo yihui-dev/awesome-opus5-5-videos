@@ -2,9 +2,9 @@
 
 <a href="https://skillry.dev/ai-videos/opus-5-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/_readme/mosaic.fc36404ce3.webp" alt="A wall of videos made with Claude Opus 5.5: games, 3D scenes, explainers and motion graphics" width="100%"></a>
 
-Videos people made with **Claude Opus 5.5**: a collection of shared prompts and original posts, plus clearly labeled skill-assisted showcases.
+Viral videos people made with **Claude Opus 5.5**, each with the prompt the creator shared (or, where no prompt was published, their original post).
 
-The prompt collection focuses on animations written as code (HTML, Canvas, SVG, Three.js and friends). Pick one, copy its prompt, and try it with your own agent. The skill-assisted showcases link their production repositories and distinguish code-drawn visuals from workflows that also use image/video generation models.
+Every video here was made by asking Claude Opus 5.5 to write the animation as code (HTML, Canvas, SVG, Three.js and friends). Pick one, copy its prompt, and try it with your own agent.
 
 **[▶ Watch all 418 side by side with live remakes on Skillry](https://skillry.dev/ai-videos/opus-5-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos)**
 
@@ -13,7 +13,7 @@ The prompt collection focuses on animations written as code (HTML, Canvas, SVG, 
 - 703 prompts in [`prompts/`](prompts/) and [`data/videos.json`](data/videos.json), 418 of them with a live remake on Skillry
 - 100 remade videos highlighted below, one per distinct prompt, plus 25 skill-assisted videos
 - Every entry links to the creator's original post or video; skill-assisted entries also link their production repository
-- Latest update (2026-11-11): 25 skill-assisted videos by @makevoid added: 9 music videos and 16 explainers
+- Latest update (2026-11-11): 25 skill-assisted videos added: 9 music videos and 16 explainers
 - 2026-10-12: 10 videos added, mostly explainers and 3d scenes
 - 2026-10-12: 285 more prompts added (see [Latest prompts](#latest-prompts))
 
