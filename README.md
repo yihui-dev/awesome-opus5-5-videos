@@ -2,24 +2,25 @@
 
 <a href="https://skillry.dev/ai-videos/opus-5-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/_readme/mosaic.fc36404ce3.webp" alt="A wall of videos made with Claude Opus 5.5: games, 3D scenes, explainers and motion graphics" width="100%"></a>
 
-Viral videos people made with **Claude Opus 5.5**, each with the prompt the creator shared (or, where no prompt was published, their original post).
+Videos people made with **Claude Opus 5.5**: a collection of shared prompts and original posts, plus clearly labeled skill-assisted showcases.
 
-Every video here was made by asking Claude Opus 5.5 to write the animation as code (HTML, Canvas, SVG, Three.js and friends). Pick one, copy its prompt, and try it with your own agent.
+The prompt collection focuses on animations written as code (HTML, Canvas, SVG, Three.js and friends). Pick one, copy its prompt, and try it with your own agent. The skill-assisted showcases link their production repositories and distinguish code-drawn visuals from workflows that also use image/video generation models.
 
 **[▶ Watch all 418 side by side with live remakes on Skillry](https://skillry.dev/ai-videos/opus-5-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos)**
 
 <a href="https://skillry.dev/ai-videos/opus-5-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/_readme/site-compare.592de731e6.webp" alt="The Opus 5.5 videos page on Skillry, showing each original next to its live remake" width="100%"></a>
 
 - 703 prompts in [`prompts/`](prompts/) and [`data/videos.json`](data/videos.json), 418 of them with a live remake on Skillry
-- 100 remade videos highlighted below, one per distinct prompt
-- Every entry links to the creator's original post
-- Latest update (2026-10-12): 10 videos added, mostly explainers and 3d scenes
+- 100 remade videos highlighted below, one per distinct prompt, plus 25 skill-assisted videos
+- Every entry links to the creator's original post or video; skill-assisted entries also link their production repository
+- Latest update (2026-11-11): 25 skill-assisted videos by @makevoid added: 9 music videos and 16 explainers
+- 2026-10-12: 10 videos added, mostly explainers and 3d scenes
 - 2026-10-12: 285 more prompts added (see [Latest prompts](#latest-prompts))
 
 ## Contents
 
-- [Motion graphics](#motion-graphics) (58)
-- [Explainers](#explainers) (16)
+- [Motion graphics](#motion-graphics) (58 prompt highlights + 9 skill-assisted videos)
+- [Explainers](#explainers) (16 prompt highlights + 16 skill-assisted videos)
 - [3D scenes](#3d-scenes) (14)
 - [Games & interactive](#games--interactive) (12)
 - [Latest prompts](#latest-prompts) (30)
@@ -51,6 +52,82 @@ Every video here was made by asking Claude Opus 5.5 to write the animation as co
 <tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/madhav-xo-524440?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/madhav-xo-524440/preview.webp" alt="Opus 5.5 video by @Madhav_XO" width="100%"></a><br><a href="https://x.com/Madhav_XO/status/2103605007396524440"><b>@Madhav_XO</b></a> · <a href="prompts/madhav-xo-524440.md">Prompt</a><br><sub>Three.js · GLSL · Canvas</sub></td></tr>
 </table>
 
+### Skill-assisted music videos
+
+Nine videos by [@makevoid](https://github.com/makevoid). **Dead Star** uses [the native Swift noimage skill](https://github.com/makevoid/motion-graphics-music-video-skill-noimage) for code-drawn visuals; its [original X post](https://x.com/makevoid/status/2106038781610451310) is the same video. The other eight use [the music-video skill](https://github.com/makevoid/motion-graphics-music-video-skill), which combines code animation with image/video generation. These are skill-assisted productions, not plain-prompt examples. Song credits are shown separately from the video creator.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<a href="https://www.youtube.com/watch?v=nsXp_e2QObI"><img src="https://i.ytimg.com/vi/nsXp_e2QObI/hqdefault.jpg" alt="Dead Star by @makevoid" width="100%"></a><br>
+<a href="https://www.youtube.com/watch?v=nsXp_e2QObI"><b>Dead Star</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill-noimage#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>Swift · Code-drawn visuals</sub><br>
+<sub>Song: @madebyanubis · Suno</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://youtu.be/0HwES32Ials"><img src="https://i.ytimg.com/vi/0HwES32Ials/hqdefault.jpg" alt="The Math of You by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/0HwES32Ials"><b>The Math of You</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>Song: HN · Suno</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://youtu.be/b70F1bWZlwE"><img src="https://i.ytimg.com/vi/b70F1bWZlwE/hqdefault.jpg" alt="You knew how to fork — take 2 by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/b70F1bWZlwE"><b>You knew how to fork — take 2</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>Song: @joshcirre</sub>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a href="https://youtu.be/Nxhg23_fheY"><img src="https://i.ytimg.com/vi/Nxhg23_fheY/hqdefault.jpg" alt="You knew how to fork by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/Nxhg23_fheY"><b>You knew how to fork</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>Song: @joshcirre</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://www.youtube.com/watch?v=MUf_h7GPnEI"><img src="https://i.ytimg.com/vi/MUf_h7GPnEI/hqdefault.jpg" alt="Upping my P(doom) — remix #2 by @makevoid" width="100%"></a><br>
+<a href="https://www.youtube.com/watch?v=MUf_h7GPnEI"><b>Upping my P(doom) — remix #2</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>Remix of donaldjewkes’s video remix</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://youtu.be/UGX2KzetGZ0"><img src="https://i.ytimg.com/vi/UGX2KzetGZ0/hqdefault.jpg" alt="Symphony by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/UGX2KzetGZ0"><b>Symphony</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>Song: Elrosea · SunoAI</sub>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a href="https://youtu.be/Zqd77QCaa58"><img src="https://i.ytimg.com/vi/Zqd77QCaa58/hqdefault.jpg" alt="Parterre Girl by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/Zqd77QCaa58"><b>Parterre Girl</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>Song: Core Refusal · Suno</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://youtu.be/MLxQCXH5-5o"><img src="https://i.ytimg.com/vi/MLxQCXH5-5o/hqdefault.jpg" alt="Programming Is Dead by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/MLxQCXH5-5o"><b>Programming Is Dead</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>AI music video</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://www.youtube.com/watch?v=_hNMWm_hvuk"><img src="https://i.ytimg.com/vi/_hNMWm_hvuk/hqdefault.jpg" alt="Upping My P(doom) — live action by @makevoid" width="100%"></a><br>
+<a href="https://www.youtube.com/watch?v=_hNMWm_hvuk"><b>Upping My P(doom) — live action</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>AI images/video · Live-action style</sub><br>
+<sub>AI music video</sub>
+</td>
+</tr>
+</table>
+
 ## Explainers
 
 <table>
@@ -60,6 +137,144 @@ Every video here was made by asking Claude Opus 5.5 to write the animation as co
 <tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/kloss-xyz-067876?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/kloss-xyz-067876/preview.webp" alt="Opus 5.5 video by @kloss_xyz" width="100%"></a><br><a href="https://x.com/kloss_xyz/status/2103652674336067876"><b>@kloss_xyz</b></a> · <a href="prompts/kloss-xyz-067876.md">Prompt</a><br><sub>Canvas · SVG · CSS</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/henkvaness-975279?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/henkvaness-975279/preview.webp" alt="Opus 5.5 video by @henkvaness" width="100%"></a><br><a href="https://x.com/henkvaness/status/2103801351993975279"><b>@henkvaness</b></a> · <a href="prompts/henkvaness-975279.md">Prompt</a><br><sub>SVG</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/amitsingha89-780553?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/amitsingha89-780553/preview.webp" alt="Opus 5.5 video by @AmitSingha89" width="100%"></a><br><a href="https://x.com/AmitSingha89/status/2103737604277780553"><b>@AmitSingha89</b></a> · <a href="prompts/amitsingha89-780553.md">Prompt</a><br><sub>SVG</sub></td></tr>
 <tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/tak3sh8-441895?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/tak3sh8-441895/preview.webp" alt="Opus 5.5 video by @tak3sh8" width="100%"></a><br><a href="https://x.com/tak3sh8/status/2103667481139441895"><b>@tak3sh8</b></a> · <a href="prompts/tak3sh8-441895.md">Prompt</a><br><sub>Canvas · Web Audio</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/astrothewizard-618782?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/astrothewizard-618782/preview.webp" alt="Opus 5.5 video by @AstroTheWizard" width="100%"></a><br><a href="https://x.com/AstroTheWizard/status/2103629247751618782"><b>@AstroTheWizard</b></a> · <a href="prompts/astrothewizard-618782.md">Prompt</a><br><sub>Canvas</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/sudo-kiran-254201?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/sudo-kiran-254201/preview.webp" alt="Opus 5.5 video by @sudo_kiran" width="100%"></a><br><a href="https://x.com/sudo_kiran/status/2103486573476254201"><b>@sudo_kiran</b></a> · <a href="prompts/sudo-kiran-254201.md">Prompt</a><br><sub>Canvas · SVG · CSS</sub></td></tr>
 <tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/sarut0bisasuke-069973?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/sarut0bisasuke-069973/preview.webp" alt="Opus 5.5 video by @Sarut0biSasuke" width="100%"></a><br><a href="https://x.com/Sarut0biSasuke/status/2103418429248069973"><b>@Sarut0biSasuke</b></a> · <a href="prompts/sarut0bisasuke-069973.md">Prompt</a><br><sub>Canvas</sub></td></tr>
+</table>
+
+### Skill-assisted explainers with code-drawn visuals
+
+Eight videos by [@makevoid](https://github.com/makevoid), made with [the native Swift noimage skill](https://github.com/makevoid/motion-graphics-music-video-skill-noimage). Their visuals are drawn in code, with no image or video generation models; their music was generated with ElevenLabs Music v2.5. They explain a subject through animated diagrams and text, so they are grouped here even though the toolkit is named a music-video skill. **Out Run** is a film about the arcade game, not a playable game.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<a href="https://youtu.be/hHb8Gu9tRzU"><img src="https://i.ytimg.com/vi/hHb8Gu9tRzU/hqdefault.jpg" alt="Tamahagane by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/hHb8Gu9tRzU"><b>Tamahagane</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill-noimage#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>Swift · Code-drawn visuals</sub><br>
+<sub>Iron sand to katana · ElevenLabs Music v2.5</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://youtu.be/komOer1qUrI"><img src="https://i.ytimg.com/vi/komOer1qUrI/hqdefault.jpg" alt="La Dame de Fer by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/komOer1qUrI"><b>La Dame de Fer</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill-noimage#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>Swift · Code-drawn visuals</sub><br>
+<sub>Eiffel Tower · ElevenLabs Music v2.5</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://youtu.be/k94Ke_BWAW0"><img src="https://i.ytimg.com/vi/k94Ke_BWAW0/hqdefault.jpg" alt="Out Run by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/k94Ke_BWAW0"><b>Out Run</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill-noimage#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>Swift · Code-drawn visuals</sub><br>
+<sub>Arcade racing history · ElevenLabs Music v2.5</sub>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a href="https://youtu.be/YsLnhQM2dU0"><img src="https://i.ytimg.com/vi/YsLnhQM2dU0/hqdefault.jpg" alt="The Antwerp Job by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/YsLnhQM2dU0"><b>The Antwerp Job</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill-noimage#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>Swift · Code-drawn visuals</sub><br>
+<sub>Diamond heist · ElevenLabs Music v2.5</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://youtu.be/r_vNIBrlzsA"><img src="https://i.ytimg.com/vi/r_vNIBrlzsA/hqdefault.jpg" alt="Sideways by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/r_vNIBrlzsA"><b>Sideways</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill-noimage#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>Swift · Code-drawn visuals</sub><br>
+<sub>Drifting history and physics · ElevenLabs Music v2.5</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://youtu.be/ecoT5Yz8iGA"><img src="https://i.ytimg.com/vi/ecoT5Yz8iGA/hqdefault.jpg" alt="3AM by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/ecoT5Yz8iGA"><b>3AM</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill-noimage#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>Swift · Code-drawn visuals</sub><br>
+<sub>The sleeping brain · ElevenLabs Music v2.5</sub>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a href="https://youtu.be/f4qpElPt1kU"><img src="https://i.ytimg.com/vi/f4qpElPt1kU/hqdefault.jpg" alt="The Drop by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/f4qpElPt1kU"><b>The Drop</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill-noimage#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>Swift · Code-drawn visuals</sub><br>
+<sub>The water cycle · ElevenLabs Music v2.5</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://youtu.be/jBSBVTApLDY"><img src="https://i.ytimg.com/vi/jBSBVTApLDY/hqdefault.jpg" alt="LGM-1 by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/jBSBVTApLDY"><b>LGM-1</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill-noimage#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>Swift · Code-drawn visuals</sub><br>
+<sub>Discovering pulsars · ElevenLabs Music v2.5</sub>
+</td>
+</tr>
+</table>
+
+### Skill-assisted animated lessons
+
+Eight narrated cartoon lessons by [@makevoid](https://github.com/makevoid), made with [the animated-lesson plugin](https://github.com/makevoid/motion-graphics-animated-lesson-plugin). The workflow combines p5.js diagrams and captions with generated character artwork and video. Sample numbers match the source README; topic labels describe the videos. These are skill-assisted productions, not plain-prompt examples.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<a href="https://www.youtube.com/shorts/7o23EHl1fnw"><img src="https://raw.githubusercontent.com/makevoid/motion-graphics-animated-lesson-plugin/main/docs/examples/sample-video-1.jpg" alt="Animated lesson 1 by @makevoid" width="100%"></a><br>
+<a href="https://www.youtube.com/shorts/7o23EHl1fnw"><b>Animated lesson 1</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-animated-lesson-plugin#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>CRISPR and gene editing</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://www.youtube.com/shorts/UQequFn0Vzo"><img src="https://raw.githubusercontent.com/makevoid/motion-graphics-animated-lesson-plugin/main/docs/examples/sample-video-2.jpg" alt="Animated lesson 2 by @makevoid" width="100%"></a><br>
+<a href="https://www.youtube.com/shorts/UQequFn0Vzo"><b>Animated lesson 2</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-animated-lesson-plugin#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>Black holes</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://www.youtube.com/shorts/Cg2-ZvbYNHY"><img src="https://raw.githubusercontent.com/makevoid/motion-graphics-animated-lesson-plugin/main/docs/examples/sample-video-3.jpg" alt="Animated lesson 3 by @makevoid" width="100%"></a><br>
+<a href="https://www.youtube.com/shorts/Cg2-ZvbYNHY"><b>Animated lesson 3</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-animated-lesson-plugin#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>Redstone computers</sub>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a href="https://www.youtube.com/shorts/bTu_A8ba0GA"><img src="https://raw.githubusercontent.com/makevoid/motion-graphics-animated-lesson-plugin/main/docs/examples/sample-video-4.jpg" alt="Animated lesson 4 by @makevoid" width="100%"></a><br>
+<a href="https://www.youtube.com/shorts/bTu_A8ba0GA"><b>Animated lesson 4</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-animated-lesson-plugin#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>Building domes with blocks</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://www.youtube.com/shorts/pdTGocsiMRM"><img src="https://raw.githubusercontent.com/makevoid/motion-graphics-animated-lesson-plugin/main/docs/examples/sample-video-5.jpg" alt="Animated lesson 5 by @makevoid" width="100%"></a><br>
+<a href="https://www.youtube.com/shorts/pdTGocsiMRM"><b>Animated lesson 5</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-animated-lesson-plugin#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>How language models predict words</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://www.youtube.com/shorts/ZW9zP9ST7Vs"><img src="https://raw.githubusercontent.com/makevoid/motion-graphics-animated-lesson-plugin/main/docs/examples/sample-video-6.jpg" alt="Animated lesson 6 by @makevoid" width="100%"></a><br>
+<a href="https://www.youtube.com/shorts/ZW9zP9ST7Vs"><b>Animated lesson 6</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-animated-lesson-plugin#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>What’s behind your wall socket?</sub>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a href="https://www.youtube.com/shorts/XxAlN73aRS4"><img src="https://raw.githubusercontent.com/makevoid/motion-graphics-animated-lesson-plugin/main/docs/examples/sample-video-7.jpg" alt="Animated lesson 7 by @makevoid" width="100%"></a><br>
+<a href="https://www.youtube.com/shorts/XxAlN73aRS4"><b>Animated lesson 7</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-animated-lesson-plugin#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>Learning machines</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://www.youtube.com/shorts/5H6qg7669PM"><img src="https://raw.githubusercontent.com/makevoid/motion-graphics-animated-lesson-plugin/main/docs/examples/sample-video-8.jpg" alt="Animated lesson 8 by @makevoid" width="100%"></a><br>
+<a href="https://www.youtube.com/shorts/5H6qg7669PM"><b>Animated lesson 8</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-animated-lesson-plugin#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>p5.js · AI images/video</sub><br>
+<sub>How planes fly</sub>
+</td>
+</tr>
 </table>
 
 ## 3D scenes
