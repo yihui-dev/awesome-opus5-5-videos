@@ -13,14 +13,14 @@ Every video here was made by asking Claude Opus 5.5 to write the animation as co
 - 703 prompts in [`prompts/`](prompts/) and [`data/videos.json`](data/videos.json), 418 of them with a live remake on Skillry
 - 100 remade videos highlighted below, one per distinct prompt, plus 25 skill-assisted videos
 - Every entry links to the creator's original post or video; skill-assisted entries also link their production repository
-- Latest update (2026-11-11): 25 skill-assisted videos added: 9 music videos and 16 explainers
+- Latest update (2026-11-11): 25 skill-assisted videos added: 17 music videos and 8 animated lessons
 - 2026-10-12: 10 videos added, mostly explainers and 3d scenes
 - 2026-10-12: 285 more prompts added (see [Latest prompts](#latest-prompts))
 
 ## Contents
 
-- [Motion graphics](#motion-graphics) (58 prompt highlights + 9 skill-assisted videos)
-- [Explainers](#explainers) (16 prompt highlights + 16 skill-assisted videos)
+- [Motion graphics](#motion-graphics) (58 prompt highlights + 17 skill-assisted videos)
+- [Explainers](#explainers) (16 prompt highlights + 8 skill-assisted videos)
 - [3D scenes](#3d-scenes) (14)
 - [Games & interactive](#games--interactive) (12)
 - [Latest prompts](#latest-prompts) (30)
@@ -54,17 +54,10 @@ Every video here was made by asking Claude Opus 5.5 to write the animation as co
 
 ### Skill-assisted music videos
 
-Skill-assisted music videos using code-drawn visuals or code animation combined with generated images and video.
+Skill-assisted music videos combining code animation with generated images and video.
 
 <table>
 <tr>
-<td width="33%" valign="top">
-<a href="https://www.youtube.com/watch?v=nsXp_e2QObI"><img src="https://i.ytimg.com/vi/nsXp_e2QObI/hqdefault.jpg" alt="Dead Star by @makevoid" width="100%"></a><br>
-<a href="https://www.youtube.com/watch?v=nsXp_e2QObI"><b>Dead Star</b></a><br>
-<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill-noimage#videos-created-with-this-skill">Skill &amp; source</a><br>
-<sub>Swift · Code-drawn visuals</sub><br>
-<sub>Song: @madebyanubis · Suno</sub>
-</td>
 <td width="33%" valign="top">
 <a href="https://youtu.be/0HwES32Ials"><img src="https://i.ytimg.com/vi/0HwES32Ials/hqdefault.jpg" alt="The Math of You by @makevoid" width="100%"></a><br>
 <a href="https://youtu.be/0HwES32Ials"><b>The Math of You</b></a><br>
@@ -79,8 +72,6 @@ Skill-assisted music videos using code-drawn visuals or code animation combined 
 <sub>p5.js · AI images/video</sub><br>
 <sub>Song: @joshcirre</sub>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a href="https://youtu.be/Nxhg23_fheY"><img src="https://i.ytimg.com/vi/Nxhg23_fheY/hqdefault.jpg" alt="You knew how to fork by @makevoid" width="100%"></a><br>
 <a href="https://youtu.be/Nxhg23_fheY"><b>You knew how to fork</b></a><br>
@@ -88,6 +79,8 @@ Skill-assisted music videos using code-drawn visuals or code animation combined 
 <sub>p5.js · AI images/video</sub><br>
 <sub>Song: @joshcirre</sub>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a href="https://www.youtube.com/watch?v=MUf_h7GPnEI"><img src="https://i.ytimg.com/vi/MUf_h7GPnEI/hqdefault.jpg" alt="Upping my P(doom) — remix #2 by @makevoid" width="100%"></a><br>
 <a href="https://www.youtube.com/watch?v=MUf_h7GPnEI"><b>Upping my P(doom) — remix #2</b></a><br>
@@ -102,8 +95,6 @@ Skill-assisted music videos using code-drawn visuals or code animation combined 
 <sub>p5.js · AI images/video</sub><br>
 <sub>Song: Elrosea · SunoAI</sub>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a href="https://youtu.be/Zqd77QCaa58"><img src="https://i.ytimg.com/vi/Zqd77QCaa58/hqdefault.jpg" alt="Parterre Girl by @makevoid" width="100%"></a><br>
 <a href="https://youtu.be/Zqd77QCaa58"><b>Parterre Girl</b></a><br>
@@ -111,6 +102,8 @@ Skill-assisted music videos using code-drawn visuals or code animation combined 
 <sub>p5.js · AI images/video</sub><br>
 <sub>Song: Core Refusal · Suno</sub>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a href="https://youtu.be/MLxQCXH5-5o"><img src="https://i.ytimg.com/vi/MLxQCXH5-5o/hqdefault.jpg" alt="Programming Is Dead by @makevoid" width="100%"></a><br>
 <a href="https://youtu.be/MLxQCXH5-5o"><b>Programming Is Dead</b></a><br>
@@ -128,23 +121,19 @@ Skill-assisted music videos using code-drawn visuals or code animation combined 
 </tr>
 </table>
 
-## Explainers
+### Skill-assisted music videos with no image model
 
-<table>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/ror-fly-880547?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/ror-fly-880547/preview.webp" alt="Opus 5.5 video by @Ror_Fly" width="100%"></a><br><a href="https://x.com/Ror_Fly/status/2102853258582880547"><b>@Ror_Fly</b></a> · <a href="prompts/ror-fly-880547.md">Prompt</a><br><sub>Canvas</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/deedydas-252537?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/deedydas-252537/preview.webp" alt="Opus 5.5 video by @deedydas" width="100%"></a><br><a href="https://x.com/deedydas/status/2102787937482252537"><b>@deedydas</b></a> · <a href="prompts/deedydas-252537.md">Prompt</a><br><sub>SVG · GSAP</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/sudo-kiran-335993?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/sudo-kiran-335993/preview.webp" alt="Opus 5.5 video by @sudo_kiran" width="100%"></a><br><a href="https://x.com/sudo_kiran/status/2103761658745335993"><b>@sudo_kiran</b></a> · <a href="prompts/sudo-kiran-335993.md">Prompt</a><br><sub>Canvas · SVG · GSAP</sub></td></tr>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/0xvalure-331584?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/0xvalure-331584/preview.webp" alt="Opus 5.5 video by @0xValure" width="100%"></a><br><a href="https://x.com/0xValure/status/2103603025579331584"><b>@0xValure</b></a> · <a href="prompts/0xvalure-331584.md">Prompt</a><br><sub>Three.js · Canvas</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/verbove-268381?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/verbove-268381/preview.webp" alt="Opus 5.5 video by @verbove" width="100%"></a><br><a href="https://x.com/verbove/status/2103483957266268381"><b>@verbove</b></a> · <a href="prompts/verbove-268381.md">Prompt</a><br><sub>Canvas</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/ajith-io-562538?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/ajith-io-562538/preview.webp" alt="Opus 5.5 video by @ajith_io" width="100%"></a><br><a href="https://x.com/ajith_io/status/2103800569584562538"><b>@ajith_io</b></a> · <a href="prompts/ajith-io-562538.md">Prompt</a><br><sub>Three.js · GLSL · Canvas</sub></td></tr>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/linearuncle-971663?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/linearuncle-971663/preview.webp" alt="Opus 5.5 video by @LinearUncle" width="100%"></a><br><a href="https://x.com/LinearUncle/status/2103128559174971663"><b>@LinearUncle</b></a> · <a href="prompts/linearuncle-971663.md">Prompt</a><br><sub>SVG · Web Audio</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/alex-prompter-997524?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/alex-prompter-997524/preview.webp" alt="Opus 5.5 video by @alex_prompter" width="100%"></a><br><a href="https://x.com/alex_prompter/status/2103499977632997524"><b>@alex_prompter</b></a> · <a href="prompts/alex-prompter-997524.md">Prompt</a><br><sub>SVG · GSAP</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/emollick-019567?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/emollick-019567/preview.webp" alt="Opus 5.5 video by @emollick" width="100%"></a><br><a href="https://x.com/emollick/status/2103688362960019567"><b>@emollick</b></a> · <a href="prompts/emollick-019567.md">Prompt</a><br><sub>Canvas</sub></td></tr>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/kloss-xyz-067876?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/kloss-xyz-067876/preview.webp" alt="Opus 5.5 video by @kloss_xyz" width="100%"></a><br><a href="https://x.com/kloss_xyz/status/2103652674336067876"><b>@kloss_xyz</b></a> · <a href="prompts/kloss-xyz-067876.md">Prompt</a><br><sub>Canvas · SVG · CSS</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/henkvaness-975279?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/henkvaness-975279/preview.webp" alt="Opus 5.5 video by @henkvaness" width="100%"></a><br><a href="https://x.com/henkvaness/status/2103801351993975279"><b>@henkvaness</b></a> · <a href="prompts/henkvaness-975279.md">Prompt</a><br><sub>SVG</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/amitsingha89-780553?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/amitsingha89-780553/preview.webp" alt="Opus 5.5 video by @AmitSingha89" width="100%"></a><br><a href="https://x.com/AmitSingha89/status/2103737604277780553"><b>@AmitSingha89</b></a> · <a href="prompts/amitsingha89-780553.md">Prompt</a><br><sub>SVG</sub></td></tr>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/tak3sh8-441895?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/tak3sh8-441895/preview.webp" alt="Opus 5.5 video by @tak3sh8" width="100%"></a><br><a href="https://x.com/tak3sh8/status/2103667481139441895"><b>@tak3sh8</b></a> · <a href="prompts/tak3sh8-441895.md">Prompt</a><br><sub>Canvas · Web Audio</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/astrothewizard-618782?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/astrothewizard-618782/preview.webp" alt="Opus 5.5 video by @AstroTheWizard" width="100%"></a><br><a href="https://x.com/AstroTheWizard/status/2103629247751618782"><b>@AstroTheWizard</b></a> · <a href="prompts/astrothewizard-618782.md">Prompt</a><br><sub>Canvas</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/sudo-kiran-254201?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/sudo-kiran-254201/preview.webp" alt="Opus 5.5 video by @sudo_kiran" width="100%"></a><br><a href="https://x.com/sudo_kiran/status/2103486573476254201"><b>@sudo_kiran</b></a> · <a href="prompts/sudo-kiran-254201.md">Prompt</a><br><sub>Canvas · SVG · CSS</sub></td></tr>
-<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/sarut0bisasuke-069973?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/sarut0bisasuke-069973/preview.webp" alt="Opus 5.5 video by @Sarut0biSasuke" width="100%"></a><br><a href="https://x.com/Sarut0biSasuke/status/2103418429248069973"><b>@Sarut0biSasuke</b></a> · <a href="prompts/sarut0bisasuke-069973.md">Prompt</a><br><sub>Canvas</sub></td></tr>
-</table>
-
-### Skill-assisted explainers with code-drawn visuals
-
-Skill-assisted explainers with native Swift visuals drawn entirely in code and music generated with ElevenLabs Music v2.5.
+Music videos with visuals generated entirely from code, using no image or video model.
 
 <table>
 <tr>
+<td width="33%" valign="top">
+<a href="https://www.youtube.com/watch?v=nsXp_e2QObI"><img src="https://i.ytimg.com/vi/nsXp_e2QObI/hqdefault.jpg" alt="Dead Star by @makevoid" width="100%"></a><br>
+<a href="https://www.youtube.com/watch?v=nsXp_e2QObI"><b>Dead Star</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-music-video-skill-noimage#videos-created-with-this-skill">Skill &amp; source</a><br>
+<sub>Swift · Code-drawn visuals</sub><br>
+<sub>Song: @madebyanubis · Suno</sub>
+</td>
 <td width="33%" valign="top">
 <a href="https://youtu.be/hHb8Gu9tRzU"><img src="https://i.ytimg.com/vi/hHb8Gu9tRzU/hqdefault.jpg" alt="Tamahagane by @makevoid" width="100%"></a><br>
 <a href="https://youtu.be/hHb8Gu9tRzU"><b>Tamahagane</b></a><br>
@@ -159,6 +148,8 @@ Skill-assisted explainers with native Swift visuals drawn entirely in code and m
 <sub>Swift · Code-drawn visuals</sub><br>
 <sub>Eiffel Tower · ElevenLabs Music v2.5</sub>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a href="https://youtu.be/k94Ke_BWAW0"><img src="https://i.ytimg.com/vi/k94Ke_BWAW0/hqdefault.jpg" alt="Out Run by @makevoid" width="100%"></a><br>
 <a href="https://youtu.be/k94Ke_BWAW0"><b>Out Run</b></a><br>
@@ -166,8 +157,6 @@ Skill-assisted explainers with native Swift visuals drawn entirely in code and m
 <sub>Swift · Code-drawn visuals</sub><br>
 <sub>Arcade racing history · ElevenLabs Music v2.5</sub>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a href="https://youtu.be/YsLnhQM2dU0"><img src="https://i.ytimg.com/vi/YsLnhQM2dU0/hqdefault.jpg" alt="The Antwerp Job by @makevoid" width="100%"></a><br>
 <a href="https://youtu.be/YsLnhQM2dU0"><b>The Antwerp Job</b></a><br>
@@ -182,6 +171,8 @@ Skill-assisted explainers with native Swift visuals drawn entirely in code and m
 <sub>Swift · Code-drawn visuals</sub><br>
 <sub>Drifting history and physics · ElevenLabs Music v2.5</sub>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <a href="https://youtu.be/ecoT5Yz8iGA"><img src="https://i.ytimg.com/vi/ecoT5Yz8iGA/hqdefault.jpg" alt="3AM by @makevoid" width="100%"></a><br>
 <a href="https://youtu.be/ecoT5Yz8iGA"><b>3AM</b></a><br>
@@ -189,8 +180,6 @@ Skill-assisted explainers with native Swift visuals drawn entirely in code and m
 <sub>Swift · Code-drawn visuals</sub><br>
 <sub>The sleeping brain · ElevenLabs Music v2.5</sub>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <a href="https://youtu.be/f4qpElPt1kU"><img src="https://i.ytimg.com/vi/f4qpElPt1kU/hqdefault.jpg" alt="The Drop by @makevoid" width="100%"></a><br>
 <a href="https://youtu.be/f4qpElPt1kU"><b>The Drop</b></a><br>
@@ -206,6 +195,17 @@ Skill-assisted explainers with native Swift visuals drawn entirely in code and m
 <sub>Discovering pulsars · ElevenLabs Music v2.5</sub>
 </td>
 </tr>
+</table>
+
+## Explainers
+
+<table>
+<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/ror-fly-880547?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/ror-fly-880547/preview.webp" alt="Opus 5.5 video by @Ror_Fly" width="100%"></a><br><a href="https://x.com/Ror_Fly/status/2102853258582880547"><b>@Ror_Fly</b></a> · <a href="prompts/ror-fly-880547.md">Prompt</a><br><sub>Canvas</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/deedydas-252537?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/deedydas-252537/preview.webp" alt="Opus 5.5 video by @deedydas" width="100%"></a><br><a href="https://x.com/deedydas/status/2102787937482252537"><b>@deedydas</b></a> · <a href="prompts/deedydas-252537.md">Prompt</a><br><sub>SVG · GSAP</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/sudo-kiran-335993?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/sudo-kiran-335993/preview.webp" alt="Opus 5.5 video by @sudo_kiran" width="100%"></a><br><a href="https://x.com/sudo_kiran/status/2103761658745335993"><b>@sudo_kiran</b></a> · <a href="prompts/sudo-kiran-335993.md">Prompt</a><br><sub>Canvas · SVG · GSAP</sub></td></tr>
+<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/0xvalure-331584?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/0xvalure-331584/preview.webp" alt="Opus 5.5 video by @0xValure" width="100%"></a><br><a href="https://x.com/0xValure/status/2103603025579331584"><b>@0xValure</b></a> · <a href="prompts/0xvalure-331584.md">Prompt</a><br><sub>Three.js · Canvas</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/verbove-268381?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/verbove-268381/preview.webp" alt="Opus 5.5 video by @verbove" width="100%"></a><br><a href="https://x.com/verbove/status/2103483957266268381"><b>@verbove</b></a> · <a href="prompts/verbove-268381.md">Prompt</a><br><sub>Canvas</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/ajith-io-562538?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/ajith-io-562538/preview.webp" alt="Opus 5.5 video by @ajith_io" width="100%"></a><br><a href="https://x.com/ajith_io/status/2103800569584562538"><b>@ajith_io</b></a> · <a href="prompts/ajith-io-562538.md">Prompt</a><br><sub>Three.js · GLSL · Canvas</sub></td></tr>
+<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/linearuncle-971663?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/linearuncle-971663/preview.webp" alt="Opus 5.5 video by @LinearUncle" width="100%"></a><br><a href="https://x.com/LinearUncle/status/2103128559174971663"><b>@LinearUncle</b></a> · <a href="prompts/linearuncle-971663.md">Prompt</a><br><sub>SVG · Web Audio</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/alex-prompter-997524?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/alex-prompter-997524/preview.webp" alt="Opus 5.5 video by @alex_prompter" width="100%"></a><br><a href="https://x.com/alex_prompter/status/2103499977632997524"><b>@alex_prompter</b></a> · <a href="prompts/alex-prompter-997524.md">Prompt</a><br><sub>SVG · GSAP</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/emollick-019567?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/emollick-019567/preview.webp" alt="Opus 5.5 video by @emollick" width="100%"></a><br><a href="https://x.com/emollick/status/2103688362960019567"><b>@emollick</b></a> · <a href="prompts/emollick-019567.md">Prompt</a><br><sub>Canvas</sub></td></tr>
+<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/kloss-xyz-067876?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/kloss-xyz-067876/preview.webp" alt="Opus 5.5 video by @kloss_xyz" width="100%"></a><br><a href="https://x.com/kloss_xyz/status/2103652674336067876"><b>@kloss_xyz</b></a> · <a href="prompts/kloss-xyz-067876.md">Prompt</a><br><sub>Canvas · SVG · CSS</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/henkvaness-975279?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/henkvaness-975279/preview.webp" alt="Opus 5.5 video by @henkvaness" width="100%"></a><br><a href="https://x.com/henkvaness/status/2103801351993975279"><b>@henkvaness</b></a> · <a href="prompts/henkvaness-975279.md">Prompt</a><br><sub>SVG</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/amitsingha89-780553?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/amitsingha89-780553/preview.webp" alt="Opus 5.5 video by @AmitSingha89" width="100%"></a><br><a href="https://x.com/AmitSingha89/status/2103737604277780553"><b>@AmitSingha89</b></a> · <a href="prompts/amitsingha89-780553.md">Prompt</a><br><sub>SVG</sub></td></tr>
+<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/tak3sh8-441895?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/tak3sh8-441895/preview.webp" alt="Opus 5.5 video by @tak3sh8" width="100%"></a><br><a href="https://x.com/tak3sh8/status/2103667481139441895"><b>@tak3sh8</b></a> · <a href="prompts/tak3sh8-441895.md">Prompt</a><br><sub>Canvas · Web Audio</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/astrothewizard-618782?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/astrothewizard-618782/preview.webp" alt="Opus 5.5 video by @AstroTheWizard" width="100%"></a><br><a href="https://x.com/AstroTheWizard/status/2103629247751618782"><b>@AstroTheWizard</b></a> · <a href="prompts/astrothewizard-618782.md">Prompt</a><br><sub>Canvas</sub></td><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/sudo-kiran-254201?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/sudo-kiran-254201/preview.webp" alt="Opus 5.5 video by @sudo_kiran" width="100%"></a><br><a href="https://x.com/sudo_kiran/status/2103486573476254201"><b>@sudo_kiran</b></a> · <a href="prompts/sudo-kiran-254201.md">Prompt</a><br><sub>Canvas · SVG · CSS</sub></td></tr>
+<tr><td width="33%" valign="top"><a href="https://skillry.dev/ai-videos/opus-5-5/sarut0bisasuke-069973?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/sarut0bisasuke-069973/preview.webp" alt="Opus 5.5 video by @Sarut0biSasuke" width="100%"></a><br><a href="https://x.com/Sarut0biSasuke/status/2103418429248069973"><b>@Sarut0biSasuke</b></a> · <a href="prompts/sarut0bisasuke-069973.md">Prompt</a><br><sub>Canvas</sub></td></tr>
 </table>
 
 ### Skill-assisted animated lessons
