@@ -54,7 +54,7 @@ Every video here was made by asking Claude Opus 5.5 to write the animation as co
 
 ### Skill-assisted music videos
 
-Nine videos by [@makevoid](https://github.com/makevoid). **Dead Star** uses [the native Swift noimage skill](https://github.com/makevoid/motion-graphics-music-video-skill-noimage) for code-drawn visuals; its [original X post](https://x.com/makevoid/status/2106038781610451310) is the same video. The other eight use [the music-video skill](https://github.com/makevoid/motion-graphics-music-video-skill), which combines code animation with image/video generation. These are skill-assisted productions, not plain-prompt examples. Song credits are shown separately from the video creator.
+Skill-assisted music videos using code-drawn visuals or code animation combined with generated images and video.
 
 <table>
 <tr>
@@ -141,7 +141,7 @@ Nine videos by [@makevoid](https://github.com/makevoid). **Dead Star** uses [the
 
 ### Skill-assisted explainers with code-drawn visuals
 
-Eight videos by [@makevoid](https://github.com/makevoid), made with [the native Swift noimage skill](https://github.com/makevoid/motion-graphics-music-video-skill-noimage). Their visuals are drawn in code, with no image or video generation models; their music was generated with ElevenLabs Music v2.5. They explain a subject through animated diagrams and text, so they are grouped here even though the toolkit is named a music-video skill. **Out Run** is a film about the arcade game, not a playable game.
+Skill-assisted explainers with native Swift visuals drawn entirely in code and music generated with ElevenLabs Music v2.5.
 
 <table>
 <tr>
@@ -210,7 +210,7 @@ Eight videos by [@makevoid](https://github.com/makevoid), made with [the native 
 
 ### Skill-assisted animated lessons
 
-Eight narrated cartoon lessons by [@makevoid](https://github.com/makevoid), made with [the animated-lesson plugin](https://github.com/makevoid/motion-graphics-animated-lesson-plugin). The workflow combines p5.js diagrams and captions with generated character artwork and video. Sample numbers match the source README; topic labels describe the videos. These are skill-assisted productions, not plain-prompt examples.
+Skill-assisted narrated cartoon lessons combining p5.js diagrams and captions with generated character artwork and video.
 
 <table>
 <tr>
