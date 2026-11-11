@@ -25,6 +25,7 @@ Every video here was made by asking Claude Opus 5.5 to write the animation as co
 - [Latest prompts](#latest-prompts) (30)
 - [How to use a prompt](#how-to-use-a-prompt)
 - [Credits](#credits)
+- [Claude to PDF](https://chromewebstore.google.com/detail/ndnjjjppaaiclfjlnopmnimhhiikkppk) - Export Claude.ai chats and artifacts to PDF, Markdown, and JSON with math and syntax formatting.
 
 ## Motion graphics
 
