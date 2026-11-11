@@ -11,15 +11,15 @@ Every video here was made by asking Claude Opus 5.5 to write the animation as co
 <a href="https://skillry.dev/ai-videos/opus-5-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/_readme/site-compare.592de731e6.webp" alt="The Opus 5.5 videos page on Skillry, showing each original next to its live remake" width="100%"></a>
 
 - 703 prompts in [`prompts/`](prompts/) and [`data/videos.json`](data/videos.json), 418 of them with a live remake on Skillry
-- 100 remade videos highlighted below, one per distinct prompt, plus 24 skill-assisted videos
-- Every entry links to the creator's original post or video; skill-assisted entries also link their production repository
-- Latest update (2026-11-11): 24 skill-assisted videos added: 16 music videos and 8 animated lessons
+- 124 videos highlighted below, including 100 remakes
+- Every entry links to the creator's original post or video
+- Latest update (2026-11-11): 24 videos added: 16 music videos and 8 animated lessons
 - 2026-10-12: 10 videos added, mostly explainers and 3d scenes
 - 2026-10-12: 285 more prompts added (see [Latest prompts](#latest-prompts))
 
 ## Contents
 
-- [Motion graphics](#motion-graphics) (58 prompt highlights + 16 skill-assisted videos)
+- [Motion graphics](#motion-graphics) (74)
 - [Explainers](#explainers) (24)
 - [3D scenes](#3d-scenes) (14)
 - [Games & interactive](#games--interactive) (12)
