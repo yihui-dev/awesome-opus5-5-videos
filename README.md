@@ -20,7 +20,7 @@ Every video here was made by asking Claude Opus 5.5 to write the animation as co
 ## Contents
 
 - [Motion graphics](#motion-graphics) (58 prompt highlights + 16 skill-assisted videos)
-- [Explainers](#explainers) (16 prompt highlights + 8 skill-assisted videos)
+- [Explainers](#explainers) (24)
 - [3D scenes](#3d-scenes) (14)
 - [Games & interactive](#games--interactive) (12)
 - [Latest prompts](#latest-prompts) (30)
