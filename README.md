@@ -10,17 +10,17 @@ Every video here was made by asking Claude Opus 5.5 to write the animation as co
 
 <a href="https://skillry.dev/ai-videos/opus-5-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-opus5-5-videos"><img src="https://media.skillry.dev/opus-5-5/_readme/site-compare.592de731e6.webp" alt="The Opus 5.5 videos page on Skillry, showing each original next to its live remake" width="100%"></a>
 
-- 703 prompts in [`prompts/`](prompts/) and [`data/videos.json`](data/videos.json), 418 of them with a live remake on Skillry
-- 124 videos highlighted below, including 100 remakes
+- 704 prompts in [`prompts/`](prompts/) and [`data/videos.json`](data/videos.json), 418 of them with a live remake on Skillry
+- 125 videos highlighted below, including 100 remakes
 - Every entry links to the creator's original post or video
-- Latest update (2026-11-11): 24 videos added: 16 music videos and 8 animated lessons
+- Latest update (2026-11-11): 25 videos added: 16 music videos and 9 explainers
 - 2026-10-12: 10 videos added, mostly explainers and 3d scenes
 - 2026-10-12: 285 more prompts added (see [Latest prompts](#latest-prompts))
 
 ## Contents
 
 - [Motion graphics](#motion-graphics) (74)
-- [Explainers](#explainers) (24)
+- [Explainers](#explainers) (25)
 - [3D scenes](#3d-scenes) (14)
 - [Games & interactive](#games--interactive) (12)
 - [Latest prompts](#latest-prompts) (30)
@@ -262,6 +262,12 @@ Music videos with visuals generated entirely from code, using no image or video 
 <a href="https://github.com/makevoid">@makevoid</a> · <a href="https://github.com/makevoid/motion-graphics-animated-lesson-plugin#videos-created-with-this-skill">Skill &amp; source</a><br>
 <sub>p5.js · AI images/video</sub><br>
 <sub>How planes fly</sub>
+</td>
+<td width="33%" valign="top">
+<a href="https://youtu.be/fZAgiKb-YOU"><img src="https://i.ytimg.com/vi/fZAgiKb-YOU/hqdefault.jpg" alt="Claude Predicts the Next 50 Years of Future History by @makevoid" width="100%"></a><br>
+<a href="https://youtu.be/fZAgiKb-YOU"><b>Claude Predicts the Next 50 Years of Future History</b></a><br>
+<a href="https://github.com/makevoid">@makevoid</a> · <a href="prompts/makevoid-future-history.md">Prompts</a><br>
+<sub>Animated forecast · AI and robotics, 2026–2076</sub>
 </td>
 </tr>
 </table>
